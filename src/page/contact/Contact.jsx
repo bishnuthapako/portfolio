@@ -36,7 +36,7 @@ const Contact = (props) => {
   };
 
   return (
-    <section id="contact" className="py-5 px-3 text-white">
+    <section id="contact" className="py-10 px-5 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
           Contact <span className="text-cyan-600">Me</span>
@@ -44,7 +44,7 @@ const Contact = (props) => {
         <p className="text-gray-400 mt-3 text-lg">Get in touch</p>
 
         <div
-          className="mt-16 flex md:flex-row flex-col
+          className="mt-8 flex md:flex-row flex-col
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
           <form ref={form} onSubmit={sendEmail} className="flex flex-col flex-1 gap-5">
