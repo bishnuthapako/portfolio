@@ -1,3 +1,11 @@
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import infinitescroll from "../../assets/images/infinitescroll.png";
+import project_person from "../../assets/images/project_person1.png";
+import gameofthrone from "../../assets/images/gameofthrone-1.png";
+import pokedex from "../../assets/images/pokedex.png";
+import space from "../../assets/images/space.png";
+import giphy from "../../assets/images/giphy.png"
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
