@@ -31,7 +31,7 @@ const Project = (props) => {
       </div>
       <br />
       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
-        <div className="lg:w-2/3 w-full">
+        <div data-aos="fade-right" data-aos-duration="2000" className="lg:w-2/3 w-full">
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             slidesPerview={1.2}
@@ -75,7 +75,7 @@ const Project = (props) => {
             ))}
           </Swiper>
         </div>
-        <div className="lg:block hidden">
+        <div data-aos="fade-left" data-aos-duration="2000" className="lg:block hidden">
           <img src={picture} alt="Pictures" className="w-full h-[400px] rounded-lg" />
         </div>
       </div>

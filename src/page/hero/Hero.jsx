@@ -34,7 +34,7 @@ const Hero = (props) => {
                 Frontend Developer
               </h4>
             </div>
-            <div className="text-justify px-4 py-3">
+            <div data-aos="fade-right" data-aos-duration="2000" className="text-justify px-4 py-3">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Reprehenderit accusantium suscipit quo architecto eveniet harum
@@ -53,7 +53,7 @@ const Hero = (props) => {
            </div>
             </div>
           </div>
-          <div className="mt-8 text-3xl flex items-center md:justify-center justify-center gap-5 ">
+          <div data-aos="fade-left" data-aos-duration="1000" className="mt-8 text-3xl flex items-center md:justify-center justify-center gap-5 ">
             {props.social_media.map((icon) => (
               <div
                 key={icon.name}

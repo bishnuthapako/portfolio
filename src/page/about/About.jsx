@@ -16,7 +16,7 @@ const About = () => {
         <p className="text-gray-400 my-3 text-lg">My introduction</p>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
-            <div className="text-gray-300 my-3">
+            <div data-aos="fade-right" data-aos-duration="2000" className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
                 I'm a 38-year-old software developer from New Jersey, United
                 States Of America. I stand as a passionate software developer
@@ -53,7 +53,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
-            <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
+            <div data-aos="fade-left" data-aos-duration="2000" className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
               <img
                 src={fishing}
                 alt="Fishing"

@@ -43,8 +43,7 @@ const Contact = (props) => {
         </h3>
         <p className="text-gray-400 mt-3 text-lg">Get in touch</p>
 
-        <div
-          className="mt-8 flex md:flex-row flex-col
+        <div data-aos="zoom-in-left" data-aos-duration="2000" className="mt-8 flex md:flex-row flex-col
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
           <form ref={form} onSubmit={sendEmail} className="flex flex-col flex-1 gap-5">
