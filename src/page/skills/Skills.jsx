@@ -3,7 +3,7 @@ import React from "react";
 const Skills = (props) => {
   
   return (
-    <section id="skills" className="py-10 bg-gray-800 relative">
+    <section id="skills" className="py-10 bg-gray-800 relative md:h-screen">
       <div className="mt-8 text-gray-100 text-center">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Skills</span>

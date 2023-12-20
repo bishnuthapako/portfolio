@@ -16,9 +16,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
-// Import Swiper modules
-// import { Pagination, Autoplay } from "swiper";
+import picture from "../../assets/images/picture.png";
 
 
 const Project = (props) => {
@@ -78,7 +76,7 @@ const Project = (props) => {
           </Swiper>
         </div>
         <div className="lg:block hidden">
-          <img src={project_person} alt="" />
+          <img src={picture} alt="Pictures" className="w-full h-[400px] rounded-lg" />
         </div>
       </div>
     </section>
@@ -117,6 +115,7 @@ Project.defaultProps = {
       github_link: "https://github.com/bishnuthapako/giphy-party-project",
       live_link: "https://bishnuthapako.github.io/giphy-party-project",
     },
+ 
   ]
 }
 

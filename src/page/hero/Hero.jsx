@@ -1,4 +1,5 @@
 import React from "react";
+import bishnu from "../../assets/images/bishnu.png"
 
 const Hero = (props) => {
   const social_media = [
@@ -14,9 +15,9 @@ const Hero = (props) => {
     >
       <div className="flex-1">
         <img
-          src="https://cdn.pixabay.com/photo/2017/09/05/10/19/business-2717063_1280.jpg"
-          alt=""
-          className="shadow-lg w-[200px] h-[200px] object-cover rounded-full"
+          src={bishnu}
+          alt="Bishnu Thapa"
+          className="shadow-lg w-[200px] h-[200px] object-cover border-2 rounded-full"
         />
       </div>
       <div className="flex-1">
@@ -27,13 +28,13 @@ const Hero = (props) => {
               <span className=" text-white">Bishnu Thapa</span>
             </span>
           </h1>
-          <div className="w-full flex items-center justify-center flex-col">
+          <div className="w-full flex items-center justify-center pb-3 flex-col">
             <div className="w-max text-center">
-              <h4 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
+              <h4 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 md:text-3xl text-lg md:leading-normal leading-5 mt-4 font-bold text-slate-200">
                 Frontend Developer
               </h4>
             </div>
-            <div className="text-justify px-4">
+            <div className="text-justify px-4 py-3">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Reprehenderit accusantium suscipit quo architecto eveniet harum

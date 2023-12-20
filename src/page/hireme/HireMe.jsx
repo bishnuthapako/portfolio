@@ -1,5 +1,8 @@
 import React from "react";
 // import hireMe from "../assets/images/hireMe.png";
+import bgmasthead from "../../assets/images/bg-masthead.jpg"
+
+
 const Hireme = (props) => {
   return (
     <section id="hireme" className="py-10 px-3 text-white">
@@ -26,9 +29,9 @@ const Hireme = (props) => {
           );
         })}
         <img
-          // src={hireMe}
+          // src={bgmasthead}
           alt=""
-          className="lg:h-[32rem] h-80 lg:absolute bottom-0 -right-3 object-cover"
+          className="lg:h-[30rem] h-80 lg:absolute bottom-0 right-0 object-cover"
         />
       </div>
     </section>
