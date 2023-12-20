@@ -75,7 +75,7 @@ const Contact = (props) => {
                 </p>
               </div>
             ))}
-            <div id="map" className="h-[200px] w-full rounded-lg lg:p-2"></div>
+            <div id="map"></div>
           </div>
         </div>
       </div>
