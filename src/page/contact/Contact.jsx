@@ -89,7 +89,7 @@ Contact.defaultProps = {
     // { logo: "logo-whatsapp", text: "123 456 780" },
     {
       logo: "location",
-      text: "My Address",
+      text: "New Jersey, United States of America",
     },
   ],
 };

@@ -17,7 +17,7 @@ const Hero = (props) => {
         <img
           src={bishnu}
           alt="Bishnu Thapa"
-          className="shadow-lg w-[200px] h-[200px] object-cover border-2 rounded-full"
+          className="shadow-lg w-[150px] h-[150px] md:w-[200px] md:h-[200px] object-cover border-2 rounded-full"
         />
       </div>
       <div className="flex-1">
@@ -47,13 +47,13 @@ const Hero = (props) => {
                 eveniet quo odit repellendus perferendis.
               </p>
            <div className="flex justify-center">
-           <button className="btn-primary mt-8 w-[185px] flex justify-center items-center">
-              Connect With Me
+           <button className="btn-primary mt-8 w-[150px] md:w-[250px] flex justify-start md:justify-center items-center">
+           Connect with me below
             </button>
            </div>
             </div>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000" className="mt-8 text-3xl flex items-center md:justify-center justify-center gap-5 ">
+          <div data-aos="fade-left" data-aos-duration="1000" className="mt-4 md:mt-8 text-3xl flex items-center md:justify-center justify-center gap-5 ">
             {props.social_media.map((icon) => (
               <div
                 key={icon.name}

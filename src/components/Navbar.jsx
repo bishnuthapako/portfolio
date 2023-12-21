@@ -29,7 +29,7 @@ const Navbar = () => {
             <h4 className="text-4xl uppercase font-bold">
               B<span className="text-cyan-600">ISHN</span>U
             </h4>
-            <p className=" font-light">Your website, my passion</p>
+            <p className="hidden md:block font-light">Your website, my passion</p>
           </Link>
         </div>
         <div

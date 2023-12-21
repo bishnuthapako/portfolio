@@ -1,7 +1,6 @@
 import React from "react";
 
 const Skills = (props) => {
-  
   return (
     <section id="skills" className="py-10 bg-gray-800 relative md:h-screen">
       <div className="mt-8 text-gray-100 text-center">
@@ -9,7 +8,11 @@ const Skills = (props) => {
           My <span className="text-cyan-600">Skills</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
-        <div data-aos="zoom-in-left" data-aos-duration="2000" className="flex items-center justify-center mt-12 gap-10 flex-wrap">
+        <div
+          data-aos="zoom-in-left"
+          data-aos-duration="2000"
+          className="flex items-center justify-center mt-12 gap-10 flex-wrap"
+        >
           {props.skills?.map((skill, i) => (
             <div
               key={i}
@@ -34,32 +37,32 @@ const Skills = (props) => {
   );
 };
 Skills.defaultProps = {
-skills: [
+  skills: [
     {
       logo: "logo-javascript",
-      level: "Advance",
+      level: "JavaScript",
       count: 86,
     },
     {
       logo: "logo-css3",
-      level: "intermediate",
-      count: 90,
-    },
-    {
-      logo: "logo-nodejs",
-      level: "Beginner",
-      count: 40,
+      level: "CSS",
+      count: 80,
     },
     {
       logo: "logo-react",
-      level: "Advance",
+      level: "React JS",
       count: 80,
     },
     {
       logo: "git-pull-request-outline",
-      level: "Advance",
-      count: 90
-    }
-  ]
-}
+      level: "Github",
+      count: 90,
+    },
+    {
+      logo: "code-slash-outlinene",
+      level: "HTML",
+      count: 90,
+    },
+  ],
+};
 export default Skills;
