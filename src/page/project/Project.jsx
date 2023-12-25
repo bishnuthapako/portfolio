@@ -75,9 +75,18 @@ const Project = (props) => {
             ))}
           </Swiper>
         </div>
-        <div data-aos="fade-left" data-aos-duration="2000" className="lg:block hidden">
+        {/* <div data-aos="fade-left" data-aos-duration="2000" className="lg:block hidden">
           <img src={picture} alt="Pictures" className="w-full h-[400px] rounded-lg" />
-        </div>
+        </div> */}
+        <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center w-[300px]">
+            <div data-aos="fade-left" data-aos-duration="2000" className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
+              <img
+                src={picture}
+                alt="Fishing"
+                className="w-full h-full object-cover bg-cyan-600 rounded-xl"
+              />
+            </div>
+          </div>
       </div>
     </section>
   );

@@ -53,14 +53,14 @@ const Hero = (props) => {
            </div>
             </div>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000" className="mt-4 md:mt-8 text-3xl flex items-center md:justify-center justify-center gap-5 ">
+          <div className="mt-4 md:mt-8 text-3xl flex items-center md:justify-center justify-center gap-5 ">
             {props.social_media.map((icon) => (
               <div
                 key={icon.name}
                 className="text-gray-600 hover:text-white cursor-pointer"
               >
                 <a href={icon.link} target={icon.target}>
-                  <ion-icon name={icon.name}></ion-icon>
+                  <ion-icon data-aos={icon.animation} data-aos-duration={icon.duration} name={icon.name}></ion-icon>
                 </a>
               </div>
             ))}
@@ -76,21 +76,44 @@ Hero.defaultProps = {
       name: "logo-instagram",
       link: "https://www.instagram.com/sunishnu",
       target: "_blank",
+      animation: "fade-right",
+      duration: 2000
+
     },
     {
       name: "logo-facebook",
       link: "https://www.facebook.com/bishnutm",
       target: "_blank",
-    },
-    {
-      name: "logo-linkedin",
-      link: "https://www.linkedin.com/in/mebishnu",
-      target: "_blank",
+      animation: "fade-left",
+      duration: 2000
     },
     {
       name: "logo-twitter",
       link: "https://twitter.com/bishnuthapako",
       target: "_blank",
+      animation: "fade-right",
+      duration: 2000
+    },
+    {
+      name: "logo-linkedin",
+      link: "https://www.linkedin.com/in/mebishnu",
+      target: "_blank",
+      animation: "fade-left",
+      duration: 2000
+    },
+    {
+      name: "logo-medium",
+      link: "https://medium.com/@bishnuthapako",
+      target: "_blank",
+      animation: "fade-right",
+      duration: 2000
+    },
+    {
+      name: "logo-github",
+      link: "https://github.com/bishnuthapako",
+      target: "_blank",
+      animation: "fade-left",
+      duration: 2000
     },
   ],
 };
