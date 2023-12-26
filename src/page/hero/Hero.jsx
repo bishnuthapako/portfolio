@@ -60,7 +60,7 @@ const Hero = (props) => {
                 className="text-gray-600 hover:text-white cursor-pointer"
               >
                 <a href={icon.link} target={icon.target}>
-                  <ion-icon data-aos={icon.animation} data-aos-duration={icon.duration} name={icon.name}></ion-icon>
+                  <ion-icon name={icon.name}></ion-icon>
                 </a>
               </div>
             ))}
