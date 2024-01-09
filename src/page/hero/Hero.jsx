@@ -1,5 +1,5 @@
 import React from "react";
-import bishnu from "../../assets/images/bishnu.png"
+import bishnu from "../../assets/images/bishnu.png";
 
 const Hero = (props) => {
   const social_media = [
@@ -34,23 +34,26 @@ const Hero = (props) => {
                 Frontend Developer
               </h4>
             </div>
-            <div data-aos="fade-right" data-aos-duration="2000" className="text-justify px-4 py-3">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              className="text-justify px-4 py-3"
+            >
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Reprehenderit accusantium suscipit quo architecto eveniet harum
-                quos ipsa illum vel, nisi amet esse dolorum vero adipisci,
-                aperiam quam soluta dolore laudantium consequatur? Quisquam,
-                esse incidunt eos placeat quod tempore praesentium porro earum.
-                Molestiae cumque tenetur qui atque impedit, vero odio adipisci
-                aspernatur eius magni accusamus, iste praesentium placeat
-                consequatur in vitae minus labore sapiente suscipit neque,
-                eveniet quo odit repellendus perferendis.
+                I am a skilled Software Developer with a strong background in
+                ReactJs, Ruby-on-Rails, SQL, JavaScript, and Bootstrap and
+                Tailwind css. I am passionate about creating innovative web
+                applications and software solutions that not only meet clients'
+                needs but also push the boundaries of what is possible in the
+                tech world. When I'm not immersed in coding, I have a deep
+                appreciation for the great outdoors and enjoy spending my time
+                fishing and hiking.
               </p>
-           <div className="flex justify-center">
-           <button className="btn-primary mt-8 w-[150px] md:w-[250px] flex justify-start md:justify-center items-center">
-           Connect with me below
-            </button>
-           </div>
+              <div className="flex justify-center">
+                <button className="btn-primary mt-8 w-[150px] md:w-[250px] flex justify-start md:justify-center items-center">
+                  Connect with me below
+                </button>
+              </div>
             </div>
           </div>
           <div className="mt-4 md:mt-8 text-3xl flex items-center md:justify-center justify-center gap-5 ">
@@ -77,43 +80,42 @@ Hero.defaultProps = {
       link: "https://www.instagram.com/sunishnu",
       target: "_blank",
       animation: "fade-right",
-      duration: 2000
-
+      duration: 2000,
     },
     {
       name: "logo-facebook",
       link: "https://www.facebook.com/bishnutm",
       target: "_blank",
       animation: "fade-left",
-      duration: 2000
+      duration: 2000,
     },
     {
       name: "logo-twitter",
       link: "https://twitter.com/bishnuthapako",
       target: "_blank",
       animation: "fade-right",
-      duration: 2000
+      duration: 2000,
     },
     {
       name: "logo-linkedin",
       link: "https://www.linkedin.com/in/mebishnu",
       target: "_blank",
       animation: "fade-left",
-      duration: 2000
+      duration: 2000,
     },
     {
       name: "logo-medium",
       link: "https://medium.com/@bishnuthapako",
       target: "_blank",
       animation: "fade-right",
-      duration: 2000
+      duration: 2000,
     },
     {
       name: "logo-github",
       link: "https://github.com/bishnuthapako",
       target: "_blank",
       animation: "fade-left",
-      duration: 2000
+      duration: 2000,
     },
   ],
 };

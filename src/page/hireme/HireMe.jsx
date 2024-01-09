@@ -1,6 +1,6 @@
 import React from "react";
 // import hireMe from "../assets/images/hireMe.png";
-import bgmasthead from "../../assets/images/bg-masthead.jpg";
+import img001 from "../../assets/images/img001.png";
 
 const Hireme = (props) => {
   return (
@@ -32,11 +32,11 @@ const Hireme = (props) => {
             </div>
           );
         })}
-        {/* <img
-          // src={bgmasthead}
-          alt=""
-          className="lg:h-[30rem] h-80 lg:absolute bottom-0 right-0 object-cover"
-        /> */}
+        <img
+          src={img001}
+          alt="Bishnu Thapa"
+          className="hidden lg:block lg:h-[30rem] h-80 lg:absolute bottom-0 right-0 object-cover"
+        />
       </div>
     </section>
   );
