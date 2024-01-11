@@ -50,8 +50,8 @@ const Hero = (props) => {
                 fishing and hiking.
               </p>
               <div className="flex justify-center">
-                <button className="btn-primary mt-8 w-[150px] md:w-[250px] flex justify-start md:justify-center items-center">
-                  Connect with me below
+                <button className="btn-primary mt-8 w-[150px] md:w-auto flex justify-start md:justify-center items-center">
+                Join the Conversation Below!
                 </button>
               </div>
             </div>
