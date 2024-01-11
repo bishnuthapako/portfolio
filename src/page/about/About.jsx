@@ -47,8 +47,8 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="https://docs.google.com/document/d/1aJv9yBJVKYASUhYNJYUQjfCg_ZtZ1e6qHpTqjGLYKTc/edit?usp=sharing" download>
-                <button className="btn-primary">Download CV</button>
+              <a href="https://docs.google.com/document/d/1aJv9yBJVKYASUhYNJYUQjfCg_ZtZ1e6qHpTqjGLYKTc/edit?usp=sharing" target="_blank" download>
+                <button className=" hidden btn-primary">Download CV</button>
               </a>
             </div>
           </div>
