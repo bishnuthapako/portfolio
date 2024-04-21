@@ -51,8 +51,11 @@ const Hero = (props) => {
               </p>
               <div className="flex justify-center">
                 <button className="btn-primary mt-8 w-[150px] md:w-auto flex justify-start md:justify-center items-center">
-                <span className="hidden lg:inline">  Join the Conversation Below!</span>
-                <span className="inline lg:hidden">Join Below!</span>
+                  <span className="hidden lg:inline">
+                    {" "}
+                    Join the Conversation Below!
+                  </span>
+                  <span className="inline lg:hidden">Join Below!</span>
                 </button>
               </div>
             </div>
